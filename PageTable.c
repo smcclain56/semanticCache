@@ -7,13 +7,7 @@
 #include "QueryData.h"
 #include "PageTable.h"
 /*
-IDEA: PTE in a pageTableStart has a spot for the end column -- if the pageTableEnd[end] is not valid (not an exact match) we can use this space as like
-TLB -- very fast (contains the query that was added most recently -- temporal locality
-IDEA : the problem is that bits are becoming valid because a word_32 isnt' large enough so hold data that is sized word_32 and also additional bits
-IDEA: Should I only use the TLB space on range queries -- because point queries are not difficult to get?
-IDEA: Will I need some sort of modify or reference bit -- I don't think so because I'm never actually replacing anything
-
-TODO: NEED A BIT WHICH DISTINGUISHES BETWEEN AND/OR IN PAGE TABLE
+Author @smcclain
 */
 
 /*
