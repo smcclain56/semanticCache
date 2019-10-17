@@ -6,11 +6,8 @@
 #include "WAHQuery.h"
 #include "Queue.h"
 
-word_32 TESTING = 0x00000000;
 /*
-IDEA:
-  * Need to figure out how to choose between pageTable and hashMap - eh -- get rid of pageTable?
-  * Should hash_lookup be recursive?
+Author @smcclain
 */
 
 /*
