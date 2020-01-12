@@ -1,7 +1,7 @@
 # Efficient Query Execution over Large Databases Through Semantic Caching of Bitmap Indices
 
 Researches the efficiency of querying large database systems by leveraging a semantic cache over a bitmap index.
-Program is written in C and tests various cache lookup algorithms and their effect on preformance.  
+Program is written in C and tests various cache lookup algorithms and their effect on preformance. Program was later translated into Java and research was continued (results not included on poster).  
 
 
 
